@@ -1,0 +1,21 @@
+table{
+  border: sandybrown;
+  border-collapse: collapse;
+}
+th{
+  background-color: #555;
+  color: #fff;
+}
+td {
+text-align: center;
+width:100px;
+}
+.sub-total{
+text-align: right;
+}
+.width-morehundred1 {
+width:220px;
+}
+.width-morehundred2 {
+width:340px;
+}

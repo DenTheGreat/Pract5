@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>3 Column Layout</title>
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/slider.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" clas="logo-header"><img src="assets/img/logo.png" alt="logo" width="150px" max-height="100px"></a>
+  </header>
+  <div class="container">
+    <main class="center column">
+      <article>
+        <h1>Slider</h1>
+        <div class="wrapper">    
+          <button class="btn btn-prev" onclick="prevSlide()"><i class="material-icons">&#60</i></buton>
+          <button class="btn btn-next" onclick="nextSlide()"><i class="material-icons">&#62</i></button>
+          <div id="mySlider"></div>
+          <div id="circles"></div>
+
+      </article>
+    </main>
+    <nav class="left column">
+      <h3>Left heading</h3>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="slider.html">Slider</a></li>
+        <li><a href="table.html">Table</a></li>
+
+      </ul>
+      <h3>Left heading</h3>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+      </ul>
+    </nav>
+    <div class="right column">
+      <h3>Right heading</h3>
+      <p></p>
+    </div>
+  </div>
+  <div class="footer-wrapper">
+    <footer class="footer">
+      <a href="index.html"><img clas="logo-header" src="assets/img/logo.png" alt="logo" width="150px" max-height="100px"></a>
+    </footer>
+  </div>
+<script src="assets/js/slider.js"></script>
+</body>
+</html>

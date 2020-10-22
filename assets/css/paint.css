@@ -1,0 +1,12 @@
+#draw{
+  border: 1px solid #000;
+}
+.small{
+  font-size: 10px;
+}
+.normal{
+  font-size: 20px;
+}
+.big{
+  font-size: 30px;
+}
